@@ -6,7 +6,7 @@ import About from "./pages/About";
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-dvh flex flex-col">
         <Navbar />
         <div className="flex-grow">
           <Routes>

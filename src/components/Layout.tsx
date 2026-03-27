@@ -27,7 +27,7 @@ export function Navbar() {
   }, [isMenuOpen]);
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-[#f8f9fa]/80 backdrop-blur-[20px] transition-colors duration-300 border-b border-outline-variant/5">
+    <nav className="fixed top-0 w-full z-50 bg-[#f8f9fa]/80 backdrop-blur-[20px] [-webkit-backdrop-filter:blur(20px)] transition-colors duration-300 border-b border-outline-variant/5">
       <div className="flex justify-between items-center max-w-5xl mx-auto px-6 md:px-8 h-20">
         <div className="flex items-center gap-3">
           <Link to="/" className="text-base md:text-lg font-bold uppercase tracking-[0.1em] text-[#2b3437] truncate">
