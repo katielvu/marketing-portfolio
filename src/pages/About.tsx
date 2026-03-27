@@ -80,7 +80,7 @@ export default function About() {
               <img 
                 alt="Katie Vu" 
                 className="w-full h-full object-cover object-center" 
-                src="https://lh3.googleusercontent.com/aida/ADBb0uiscfxzlRqD-0fFruFAzaPuvNw5IbNSL9pswBNqwCLGidIfnEWfO0-uJXpaFrXll_D1C_GRqjaAlhyHh_WxqTHvqVld_1r553RNWmR-Q43dJCSHn_A-BpJZiMdCGgoNFbFh9nZxe8iguz3Fnpiu9EbQ8_euJaDbKZTfOMTV0DHC4w4UqKt1eQ_18jOqJ-zgutU7k-DlsVwtfBVztsFeIUs8Z2uo-uCUuD4jDRSNewr8r_t8P3NvHy3T7U5KzF0UwF32XcehOJsP9w"
+                src="./headshot.jpg"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -101,7 +101,7 @@ export default function About() {
             <img 
               alt="Katie Vu professional portrait" 
               className="w-full h-full object-cover opacity-90 transition-all duration-500 group-hover:grayscale-0 object-center" 
-              src="https://lh3.googleusercontent.com/aida/ADBb0uiscfxzlRqD-0fFruFAzaPuvNw5IbNSL9pswBNqwCLGidIfnEWfO0-uJXpaFrXll_D1C_GRqjaAlhyHh_WxqTHvqVld_1r553RNWmR-Q43dJCSHn_A-BpJZiMdCGgoNFbFh9nZxe8iguz3Fnpiu9EbQ8_euJaDbKZTfOMTV0DHC4w4UqKt1eQ_18jOqJ-zgutU7k-DlsVwtfBVztsFeIUs8Z2uo-uCUuD4jDRSNewr8r_t8P3NvHy3T7U5KzF0UwF32XcehOJsP9w"
+              src="./headshot.jpg"
               referrerPolicy="no-referrer"
             />
           </div>
