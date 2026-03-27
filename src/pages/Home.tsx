@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
-import { TrendingUp, Wallet, Layers, Check } from "lucide-react";
+import { TrendingUp, Wallet, Layers, Check, ArrowDown } from "lucide-react";
 import { motion } from "motion/react";
 import React from "react";
 
 export default function Home() {
+  const scrollToStrategy = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const element = document.getElementById('strategic-execution');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <main className="pt-20">
       {/* Hero Section */}
@@ -39,9 +47,13 @@ export default function Home() {
                 5+ years of architecting scalable campaign frameworks that turn complex data into high-impact brand growth. Specializing in the end-to-end management of digital ecosystems, from technical SEO to multimedia content operations.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="#strategic-execution" className="bg-primary text-on-primary px-8 py-4 rounded-lg font-semibold text-base md:text-lg hover:bg-primary-dim transition-colors shadow-md">
+                <button 
+                  onClick={scrollToStrategy}
+                  className="bg-primary text-on-primary px-8 py-4 rounded-lg font-semibold text-base md:text-lg hover:bg-primary-dim transition-all shadow-md flex items-center gap-2 group cursor-pointer"
+                >
                   Explore the Strategy
-                </a>
+                  <ArrowDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
+                </button>
               </div>
             </motion.div>
 
@@ -97,7 +109,7 @@ export default function Home() {
       </section>
 
       {/* Strategic Execution */}
-      <section id="strategic-execution" className="py-32 bg-surface">
+      <section id="strategic-execution" className="py-32 bg-surface scroll-mt-20">
         <div className="max-w-5xl mx-auto px-8">
           <div className="grid grid-cols-12 gap-8 items-start">
             <div className="col-span-12 md:col-span-5 mb-12 md:mb-0">
