@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Katie Vu | Marketing Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my professional marketing portfolio! This project showcases my skills, experience, and creative work in the marketing industry.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Demo
+You can view the live version of my portfolio here: [https://katielvu.github.io/portfolio/](https://katielvu.github.io/portfolio/)
+*(Note: Replace with your actual GitHub Pages URL once published)*
 
-View your app in AI Studio: https://ai.studio/apps/a8a2fb97-fc2b-4081-be39-b4fe67fae4b0
+## ✨ Features
+- **Responsive Design:** Optimized for all devices (mobile, tablet, desktop).
+- **Modern UI:** Built with React and Tailwind CSS for a clean, professional look.
+- **Project Showcase:** Highlights key marketing campaigns and creative assets.
+- **About Me:** A brief overview of my professional background and expertise.
 
-## Run Locally
+## 🛠️ Built With
+- **React** - Frontend framework
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+- **Framer Motion** - Animations
+- **Vite** - Build tool
 
-**Prerequisites:**  Node.js
+## 📦 Deployment
+This project is automatically deployed to **GitHub Pages** using GitHub Actions. Any changes pushed to the `main` branch will trigger a new build and update the live site.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+© 2026 Katie Vu. All rights reserved.
