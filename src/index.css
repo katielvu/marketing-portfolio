@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: #555f6f;
+  --color-on-primary: #f6f7ff;
+  --color-primary-container: #d9e3f6;
+  --color-on-primary-container: #485262;
+  --color-primary-dim: #495363;
+
+  --color-surface: #f8f9fa;
+  --color-on-surface: #2b3437;
+  --color-on-surface-variant: #586064;
+  --color-surface-container: #eaeff1;
+  --color-surface-container-low: #f1f4f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e2e9ec;
+  --color-surface-dim: #d1dce0;
+  
+  --color-outline: #737c7f;
+  --color-outline-variant: #abb3b7;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-surface text-on-surface-variant antialiased font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline text-on-surface;
+  }
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at 70% 30%, #d9e3f6 0%, transparent 50%);
+}
