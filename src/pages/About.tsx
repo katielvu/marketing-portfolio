@@ -204,13 +204,14 @@ export default function About() {
             title="Marketing Program Manager"
             company="Truvantis, Inc | San Jose, CA"
             points={[
-              "Planned and executed multi-channel target audience campaigns across email, webinars, landing pages, and owned digital channels, engagement, and retention, resulting in a 14% YoY increase in qualified inbound leads and $1.2M+ influenced pipeline",
-              "Built, maintained, and optimized 20+ automated workflows in HubSpot using behavioral triggers and segmentation to nurture prospects and guide customers through the journey",
-              "Executed 200+ email campaigns and 20+ automated marketing funnels in HubSpot, improving open and conversion rates through A/B testing, experimentation, and continuous optimization",
-              "Partnered cross-functionally with the ProServ team, Sales, and Customer Success to ensure target audience campaigns aligned with GTM strategy and regional priorities",
-              "Collaborated with external and freelance content writers and design teams to edit, refine, and manage campaign assets including email sequences, landing pages, webinars, and other marketing materials for both technical and business audiences",
-              "Owned campaign measurement and reporting using HubSpot Analytics and Google Analytics, turning performance data into actionable insights to optimize engagement, conversion, and campaign ROI",
-              "Maintained SEO performance and website operations using SEMrush, resolving technical SEO issues and collaborating with developers to sustain site health and visibility"
+              "Pipeline Generation: Scaled and executed multi-channel growth campaigns across email, webinars, and landing pages, resulting in a 14% YoY increase in qualified inbound leads and over $1.2M in influenced pipeline.",
+              "Lifecycle Automation: Architected and optimized 20+ automated HubSpot workflows using high-intent behavioral triggers and advanced segmentation to nurture prospects and accelerate the customer journey.",
+              "Campaign Orchestration: Executed 200+ email campaigns and 20+ automated marketing funnels, consistently improving open and conversion rates through rigorous A/B testing and data-driven experimentation.",
+              "ABM & Strategic Alignment: Collaborated cross-functionally with Sales, Customer Success, and Professional Services to develop targeted ABM strategies that aligned global campaigns with regional GTM priorities.",
+              "Technical Content Strategy: Partnered with external writers and design teams to translate complex technical concepts into high-converting assets specifically tailored for developer and enterprise architect personas.",
+              "Full-Funnel Analytics: Owned comprehensive reporting using HubSpot and Google Analytics; translated raw performance data into actionable insights to optimize campaign ROI and lead-to-opportunity conversion rates.",
+              "Growth Operations: Managed lead routing and sales handoff protocols to ensure seamless transition from marketing engagement to sales discovery, reducing friction in the B2B buying journey.",
+              "Search & Web Optimization: Leveraged SEMrush to optimize SEO performance and website operations, resolving technical issues and collaborating with developers to increase organic visibility and site health."
             ]}
             tags={["HubSpot Expert", "GTM Strategy", "Analytics & ROI"]}
           />
