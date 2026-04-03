@@ -26,11 +26,25 @@ export function Navbar() {
     }
   }, [isMenuOpen]);
 
+  const handleLinkClick = (href: string) => {
+    if (location.pathname === href) {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#f8f9fa]/80 backdrop-blur-[20px] [-webkit-backdrop-filter:blur(20px)] transition-colors duration-300 border-b border-outline-variant/5">
       <div className="flex justify-between items-center max-w-5xl mx-auto px-6 md:px-8 h-20">
         <div className="flex items-center gap-3">
-          <Link to="/" className="text-base md:text-lg font-bold uppercase tracking-[0.1em] text-[#2b3437] truncate">
+          <Link 
+            to="/" 
+            onClick={() => handleLinkClick("/")}
+            className="text-base md:text-lg font-bold uppercase tracking-[0.1em] text-[#2b3437] truncate"
+          >
             Katie Vu | Portfolio
           </Link>
           <a 
@@ -51,6 +65,7 @@ export function Navbar() {
               <Link
                 key={link.name}
                 to={link.href}
+                onClick={() => handleLinkClick(link.href)}
                 className={cn(
                   "font-headline tracking-tight transition-all text-sm",
                   location.pathname === link.href
@@ -92,6 +107,7 @@ export function Navbar() {
             <div key={link.name}>
               <Link
                 to={link.href}
+                onClick={() => handleLinkClick(link.href)}
                 className={cn(
                   "text-xl font-headline tracking-tight transition-all flex items-center justify-between py-2",
                   location.pathname === link.href
