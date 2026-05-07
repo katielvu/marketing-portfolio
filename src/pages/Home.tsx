@@ -182,7 +182,11 @@ export default function Home() {
             <p className="text-on-surface-variant">A technical approach to marketing operations.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
-            {["Jira", "Github", "Google AI Studio", "HubSpot CRM", "Marketing Automation", "Budget Optimization", "Risk Mitigation", "Stakeholder Mgmt"].map((skill) => (
+            {[
+              "HubSpot", "Google Analytics", "SEMrush", "Jira", "Asana", "Canva", "GitHub", 
+              "HTML/CSS (Email Editing)", "Customer.io", "Inflection.io", "Google AI Studio", 
+              "Marketing Automation", "Budget Optimization", "Stakeholder Mgmt"
+            ].map((skill) => (
               <span key={skill} className="px-6 py-2 rounded-full bg-primary-container text-on-primary-container font-label text-sm font-semibold">
                 {skill}
               </span>

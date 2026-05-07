@@ -211,7 +211,8 @@ export default function About() {
               "Technical Content Strategy: Partnered with external writers and design teams to translate complex technical concepts into high-converting assets specifically tailored for developer and enterprise architect personas.",
               "Full-Funnel Analytics: Owned comprehensive reporting using HubSpot and Google Analytics; translated raw performance data into actionable insights to optimize campaign ROI and lead-to-opportunity conversion rates.",
               "Growth Operations: Managed lead routing and sales handoff protocols to ensure seamless transition from marketing engagement to sales discovery, reducing friction in the B2B buying journey.",
-              "Search & Web Optimization: Leveraged SEMrush to optimize SEO performance and website operations, resolving technical issues and collaborating with developers to increase organic visibility and site health."
+              "Search & Web Optimization: Leveraged SEMrush to optimize SEO performance and website operations, resolving technical issues and collaborating with developers to increase organic visibility and site health.",
+              "Email Compliance & QA: Maintained CAN-SPAM and GDPR compliance standards across all email deployments, ensuring data accuracy, consent management, and suppression list hygiene throughout all campaign operations."
             ]}
             tags={["HubSpot Expert", "GTM Strategy", "Analytics & ROI"]}
           />
@@ -226,10 +227,35 @@ export default function About() {
             <p className="font-body text-sm text-on-surface-variant">The tools that enable the architectural ledger.</p>
           </div>
           <div className="flex flex-wrap gap-3 max-w-xl">
-            {["HubSpot CRM", "Asana", "Google Analytics 4", "Semrush", "Figma (Design Ops)"].map((tool) => (
+            {[
+              "HubSpot", "Google Analytics", "SEMrush", "Jira", "Asana", "Canva", "GitHub", 
+              "HTML/CSS (Email Editing)", "Customer.io", "Inflection.io", "Google AI Studio", 
+              "Marketing Automation", "Budget Optimization", "Stakeholder Mgmt"
+            ].map((tool) => (
               <span key={tool} className="px-4 py-2 bg-primary-container text-on-primary-container rounded-full font-label text-xs font-semibold">
                 {tool}
               </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications */}
+      <section className="mt-12 pt-12 border-t border-outline-variant/10">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
+          <div>
+            <h3 className="font-headline text-lg font-bold text-on-surface mb-2">Certifications</h3>
+            <p className="font-body text-sm text-on-surface-variant">Validated proofs of specialized expertise.</p>
+          </div>
+          <div className="flex flex-wrap gap-4 max-w-xl">
+            {[
+              "HubSpot Inbound Marketing", 
+              "HubSpot Sales Enablement"
+            ].map((cert) => (
+              <div key={cert} className="flex items-center gap-2 px-4 py-2 bg-surface-container-high rounded-lg font-label text-xs font-semibold text-on-surface">
+                <div className="w-1.5 h-1.5 rounded-full bg-primary" />
+                {cert}
+              </div>
             ))}
           </div>
         </div>
